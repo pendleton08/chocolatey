@@ -1,0 +1,23 @@
+Metadata:
+  id: terapad
+  version: '1.09'
+  title: TeraPad
+  authors: Susumu Terao
+  owners: Pine Mizune
+  projectUrl: 'https://tera-net.com/library/tpad.html'
+  iconUrl: 'http://cdn.rawgit.com/pine613/chocolatey-packages/master/terapad/terapad.png'
+  requireLicenseAcceptance: 'false'
+  description: TeraPadはシンプルなSDIタイプのテキストエディタです。
+  summary: TeraPad is a simple text editor in SDI style.
+  tags: editor
+
+Dependencies:
+  autohotkey.portable: ''
+
+Contents:
+  - File:    _rels/.rels
+  - File:    [Content_Types].xml
+  - File:    package/services/metadata/core-properties/b569c486a97140c6862cb7b022d2005e.psmdcp
+  - File:    terapad.nuspec
+  - File:    tools/chocolateyInstall.ps1
+  - File:    tools/terapad.ahk
